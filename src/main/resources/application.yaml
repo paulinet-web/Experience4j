@@ -1,3 +1,15 @@
 spring:
   application:
     name: experience4J
+  datasource:
+    url: jdbc:h2:mem:testdb
+    username: pauline
+    password:
+    driver-class-name: org.h2.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  h2:
+    console:
+      enabled: true
